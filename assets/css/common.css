@@ -1,0 +1,23 @@
+.btn-success {
+    background-color: rgb(2, 130, 107) !important;
+}
+
+.text-success {
+    color: rgb(0, 83, 68) !important;
+}
+
+.my-hover-light:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.my-hover-success:hover {
+    background-color: rgb(2, 130, 107);
+    border: 1px solid transparent;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
