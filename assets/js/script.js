@@ -25,6 +25,24 @@ window.addEventListener("scroll", function() {
         navBar.classList.add('shadow-sm');
     }
     else {
-        navBar.classList.remove('shadow-sm');
+        if (window.scrollY == 0) {
+            navBar.classList.remove('shadow-sm');
+        }
     }
 });
+
+function addShadow() {
+    let mytoggler = document.getElementById('navBar');
+    if (mytoggler.classList.contains('shadow-sm') && !(window.scrollY > 0)) {
+        mytoggler.classList.remove('shadow-sm'); 
+    }
+    else {
+        if (window.scrollY > 0) {
+            mytoggler.classList.add('shadow-sm');
+        }
+        else {
+            mytoggler.classList.add('shadow-sm');
+        }
+    }
+}
+
