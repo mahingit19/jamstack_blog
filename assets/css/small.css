@@ -1,3 +1,8 @@
 .my-padding-sm {
     padding: 40px 0px; 
 }
+
+.my-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+}

@@ -14,7 +14,8 @@
     
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4 sticky-top">
+    <!-- This is navbar -->
+    <nav class="navbar navbar-expand-lg bg-body p-4 sticky-top text-center" id="navBar">
       <div class="container-lg">
         <a class="navbar-brand" href="#">
             <img src="assets/image/logo/Vector.png" alt="logo">
@@ -35,20 +36,21 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item ms-2">
-              <a class="nav-link" href="#">Blog</a>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link" href="#myblogs">Blog</a>
             </li>
         </div>
       </div>
     </nav>
 
+    <!-- This is hero section -->
     <div class="container-fluid px-4">
         <div class="container my-padding-lg my-padding-sm text-center text-md-start">
             <div class="row justify-content-between">
                 <div class="col-12 col-md-5 align-self-center d-flex flex-column gap-3">
-                    <h1 class="text-success playfair-display ">
+                    <h2 class="text-success playfair-display ">
                         Welcome to my blog!
-                    </h1>
+                    </h2>
                     <p>
                         I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more. 
                     </p>
@@ -71,10 +73,109 @@
         </div>
     </div>
 
+    <!-- This is featured Articles -->
+     <div class="container-fluid px-4 bg-success-subtle" id="myblogs">
+      <div class="container my-padding-lg my-padding-sm">
+        <div id="resBlog">
+          <h2 class="text-center playfair-display text-success">Featured articles</h2>
+          <p class="text-center p-4">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+        </div>
+        <div class="pt-5">
+          <div class="row gy-5">
+            <div class="col-12">
+              <div class="row justify-content-between h-100 align-items-center d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                  <h3 class="playfair-display fw-bold lh-md-base mt-4 mt-md-0" id="blogTitle">
+                    Blog Post Title Goes Here Lorem Ipsum dolor sit amet, consectetur adipiscing 
+                  </h3>
+                  <p>
+                    <span class="text-body-tertiary">by</span>
+                    John Smith
+                    <span class="text-body-tertiary">on</span>
+                    January 24, 2020
+                  </p>
+                  <p class="pt-0 pt-md-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, ipsum ac auctor ornare, nunc ligula scelerisque eros. Lorem ipsum dolor sit amet.
+                  </p>
+                  <button class="btn btn-success px-3 py-2 fw-bold mt-0 mt-md-4 my-hover-light">Continue Reading</button>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div>
+                    <img src="assets\image\thumbnail\Media.png" alt="thumbnail" class="my-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row justify-content-between h-100 align-items-center d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                  <h3 class="playfair-display fw-bold lh-md-base mt-4 mt-md-0" id="blogTitle">
+                    Blog Post Title Goes Here Lorem Ipsum dolor sit amet, consectetur adipiscing 
+                  </h3>
+                  <p>
+                    <span class="text-body-tertiary">by</span>
+                    John Smith
+                    <span class="text-body-tertiary">on</span>
+                    January 24, 2020
+                  </p>
+                  <p class="pt-0 pt-md-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, ipsum ac auctor ornare, nunc ligula scelerisque eros. Lorem ipsum dolor sit amet.
+                  </p>
+                  <button class="btn btn-success px-3 py-2 fw-bold mt-0 mt-md-4 my-hover-light">Continue Reading</button>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div>
+                    <img src="assets\image\thumbnail\Media.png" alt="thumbnail" class="my-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row justify-content-between h-100 align-items-center d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6">
+                  <h3 class="playfair-display fw-bold lh-md-base mt-4 mt-md-0" id="blogTitle">
+                    Blog Post Title Goes Here Lorem Ipsum dolor sit amet, consectetur adipiscing 
+                  </h3>
+                  <p>
+                    <span class="text-body-tertiary">by</span>
+                    John Smith
+                    <span class="text-body-tertiary">on</span>
+                    January 24, 2020
+                  </p>
+                  <p class="pt-0 pt-md-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat, ipsum ac auctor ornare, nunc ligula scelerisque eros. Lorem ipsum dolor sit amet.
+                  </p>
+                  <button class="btn btn-success px-3 py-2 fw-bold mt-0 mt-md-4 my-hover-light">Continue Reading</button>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div>
+                    <img src="assets\image\thumbnail\Media.png" alt="thumbnail" class="my-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <!-- This is footer -->
+     <div class="container-fluid bg-success">
+      <div class="container text-center text-light py-4">
+        <p>
+          <img src="assets\image\logo\Default.png" alt="logo-white" class="my-btm-img">
+        </p>
+        <p>
+          © 2020 Company Name. All rights reserved.
+        </p>
+      </div>
+     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets\js\script.js"></script>
   </body>
 </html>
